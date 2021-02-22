@@ -33,7 +33,7 @@ p {
 }
 
 .jumbotron {
-  background-image: url(/Users/philipdural/Desktop/00-MyCode/UX_UI_HW_21_Local/Hobby1/images/Hobby_Drawing.png)
+  background-image: url(images/Hobby_Drawing2.png)
   ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,6 +54,28 @@ p {
   text-align: center;
 }
 
+.emailContain {
+  background: url(images/stefan_bleekrode_drawings_01.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
 footer {
   position: absolute;
   width: 100%;
@@ -61,10 +83,12 @@ footer {
   line-height: 60px;
   background-color: #f5f5f5;
   margin-top: 50px;
-} 
+}
+
 .cardContainer {
   margin-top: 20px;
 }
+
 .card {
   margin: 0 auto;
 }
